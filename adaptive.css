@@ -1,0 +1,25 @@
+@media (max-width: 1600px) {
+    .about-nfts__content{
+        margin-left: 777px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@400;800&family=Lato:wght@700&family=League+Spartan:wght@600&family=Orbitron:wght@700&family=Rajdhani&display=swap');
+
+@media (max-width: 375px) {
+    .header-menu{
+        margin-top: -15px;
+        margin-left: -8px;
+    }
+
+    .logo-text{
+        font-size: 16px;
+        margin-left: 3px;
+    }
+
+    .header-menu__logo img{
+        width: 13px;
+        height: 22px;
+        margin-top: 29px;
+    }
+}
