@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Orbitron:wght@700&family=Rajdhani&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Orbitron:wght@700&family=Rajdhani&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=League+Spartan:wght@600&family=Orbitron:wght@700&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@300;400;500;800&family=Lato:wght@700&family=League+Spartan:wght@600&family=Orbitron:wght@700&family=Rajdhani&display=swap');
 
 @font-face {
     font-family: 'Alethia Next';
@@ -37,13 +34,13 @@ a {
 
 .header-menu{
     display: flex;
-    margin-top: 23px;
+    margin-top: 32px;
 }
 
 .header-menu__logo{
     display: flex;
     margin-top: 3px;
-    margin-left: 9px;
+    margin-left: 4px;
 }
 
 .logo-text{
@@ -64,7 +61,7 @@ a {
     font-family: 'Orbitron', sans-serif;
     font-size: 20px;
     margin-top: 32px;
-    margin-left: 221px;
+    margin-left: 226px;
     line-height: 25px;
     width: 438px;
     justify-content: space-between;
@@ -86,7 +83,7 @@ a {
     display: flex;
     margin-left: auto;
     margin-right: 9px;
-    margin-top: 35px;
+    margin-top: 33px;
 }
 
 .basket-icon{
@@ -97,6 +94,7 @@ a {
 
 .account-icon{
     opacity: 60%;
+    margin-right: -6px;
 }
 
 .basket-icon:hover,
@@ -151,7 +149,7 @@ a {
 */
 
 .main-page__content{
-    margin-top: 96px;
+    margin-top: 95px;
 }
 
 .main-page__title{
@@ -159,7 +157,7 @@ a {
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
     font-size: 80px;
-    letter-spacing: 2px;
+    letter-spacing: 1.6px;
     line-height: 92px;
     color: white;
 }
@@ -179,10 +177,12 @@ a {
     letter-spacing: -0.2px;
     line-height: 44.22px;
     margin-bottom: 40px;
+    margin-left: -5px
 }
 
 .main-page__button{
     display: flex;
+    margin-left: -6px;
 }
 
 .main-page__button1{
@@ -195,6 +195,10 @@ a {
     margin-left: 3px;
     margin-top: 3px;
     z-index: 2;
+}
+
+.main-page__button1 img{
+    margin-left: 5px;
 }
 
 .main-page__button1-border{
@@ -238,10 +242,11 @@ a {
 .main-page__numbers{
     display: flex;
     color: white;
-    margin-top: 25px;
-    width: 480px;
+    margin-top: 24px;
+    width: 477px;
     height: 70px;
     justify-content: space-between;
+    margin-left: -5px;
 }
 
 .number{
@@ -253,10 +258,11 @@ a {
     font-family: 'Alethia Next';
     font-size: 17px;
     margin-top: -40px;
+    letter-spacing: -0.3px;
 }
 
 .main-page__numbers-auctions{
-    width: 121px;
+    width: 120px;
 }
 
 .main-page__numbers-artwork::after,
@@ -283,7 +289,7 @@ a {
 }
 
 .main-page__nft{
-    clip-path:polygon(20% 0%, 100% 0%, 100% 0%, 100% 74%, 64% 100%, 0% 100%, -110% 100%);
+    clip-path:polygon(18% 0%, 100% 0%, 100% 0%, 100% 74%, 64% 100%, 0% 100%, -115% 100%);
 }
 
 .main-page__nft img{
@@ -292,7 +298,7 @@ a {
 
 .main-page__acc{
     background: linear-gradient(100deg, rgba(255, 255, 255, 0.28), rgba(0, 0, 0, 0));
-    margin-top: -125px;
+    margin-top: -122px;
     margin-left: 158px;
     width: 334px;
     height: 185px;
@@ -309,7 +315,7 @@ a {
 .main-page__section1{
     font-weight: 700;
     font-size: 15px;
-    margin-top: 21px;
+    margin-top: 19px;
     margin-left: 23px;
 }
 
@@ -321,14 +327,14 @@ a {
 .main-page__account-img{
     margin-top: 9px;
     margin-left: -1px;
-    height: 28px;
-    width: 28px;
+    height: 32px;
+    width: 32px;
 }
 
 .main-page__account p{
     font-weight: 600;
     font-size: 15px;
-    margin-left: 4px;
+    margin-left: 1px;
     letter-spacing: 0.3px;
 }
 
@@ -336,7 +342,8 @@ a {
     font-weight: 600;
     font-size: 10px;
     opacity: 70%;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
 }
 
 .main-page__price-eth{
@@ -365,8 +372,8 @@ a {
 }
 
 .main-page__section2{
-    margin-top: 30px;
-    margin-left: 56px;
+    margin-top: 29px;
+    margin-left: 57px;
 }
 
 .main-page__section2 h3{
@@ -377,9 +384,13 @@ a {
 
 .main-page__nuber2{
     display: flex;
-    margin-top: -20px;
+    margin-top: -21px;
     justify-content: space-between;
-    width: 106px;
+    width: 103px;
+}
+
+.main-page__number{
+    width: 18px;
 }
 
 .main-page__name{
@@ -387,6 +398,7 @@ a {
     font-size: 11px;
     opacity: 70%;
     margin-top: -17px;
+    margin-left: -1px;
 }
 
 .main-page__swiper-button-border{
@@ -404,14 +416,13 @@ a {
 }
 
 .main-page__swiper-button{
-    z-index: 3;
     background: linear-gradient(100deg, #FF56F6, #43A5E3);
     border: none;
     height: 37px;
     width: 119px;
     margin-left: 2px;
     margin-top: 2px;
-    justify-content: center;
+    padding-left: 18px;
 }
 
 .main-page__swiper-button p{
@@ -422,6 +433,8 @@ a {
     margin-top: 7px;
     margin-left: -6px;
     margin-right: 2px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-page__swiper-button img{
@@ -429,14 +442,18 @@ a {
 }
 
 .main-page__partners{
-    margin-top: 163px;
+    margin-top: 161px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.bitmex{
+    margin-top: 18px;
+}
+
 .top-nfts__content{
-    margin-top: 411px;
+    margin-top: 415px;
     display: flex;
     justify-content: space-between;
 }
@@ -447,6 +464,7 @@ a {
     font-weight: 700;
     font-size: 27px;
     line-height: 33px;
+    letter-spacing: -0.2px;
 }
 
 .top-nfts__button{
@@ -456,7 +474,7 @@ a {
     font-size: 27px;
     background: none;
     border: none;
-    margin-right: 6px;
+    letter-spacing: -0.2px;
     margin-top: -10px;
 }
 
@@ -471,9 +489,11 @@ a {
     margin-top: 10px;
 }
 
+.top-nfts-cards{
+    width: 1419px;
+}
+
 .top-nfts__swiper-wrapper{
-    display: flex;
-    justify-content: space-between;
     margin-top: 24px;
 }
 
@@ -493,13 +513,14 @@ a {
 }
 
 .section1{
-    width: 197px;
+    width: 201px;
 }
 
 .section1 h3{
     font-weight: 700;
     font-size: 23px;
     margin-bottom: -2px;
+    letter-spacing: 0.2px;
 }
 
 .account{
@@ -532,7 +553,7 @@ a {
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    margin-left: 5px;
+    margin-left: 6px;
     letter-spacing: -0.5px;
 }
 
@@ -541,12 +562,12 @@ a {
     font-weight: 400;
     font-size: 14px;
     opacity: 70%;
-    margin-left: 5px;
+    margin-left: 3px;
     letter-spacing: 0.2px;
 }
 
 .section2{
-    margin-left: 40px;
+    margin-left: 35px;
     margin-top: 15px;
 }
 
@@ -554,6 +575,7 @@ a {
     font-weight: 600;
     font-size: 14px;
     opacity: 70%;
+    letter-spacing: 0.2px;
 }
 
 .top-nfts__nubers{
@@ -565,14 +587,15 @@ a {
 
 .swiper-num{
     font-weight: 600;
-    font-size: 23px;
+    font-size: 22px;
+    width: 24px;
 }
 
 .swiper-num__name{
     font-weight: 500;
     font-size: 14px;
     opacity: 70%;
-    margin-top: -25px;
+    margin-top: -24px;
     margin-left: -3px;
 }
 
@@ -599,8 +622,12 @@ a {
     font-weight: 600;
     font-size: 23px;
     color: white;
-    margin-left: -3px;
+    margin-left: 6px;
     margin-top: 10px;
+}
+
+.top-nfts__swiper-button p img {
+    margin-left: 8px;
 }
 
 .top-nfts__swiper-button-border:hover{
@@ -610,12 +637,13 @@ a {
 .explore-collections__content{
     font-family: 'Orbitron', sans-serif;
     color: white;
-    margin-top: 215px;
+    margin-top: 208px;
 }
 
 .explore-collections__content h1{
     font-weight: 700;
     font-size: 26px;
+    letter-spacing: 0.33px;
 }
 
 .explore-collections__btns{
@@ -627,8 +655,9 @@ a {
 
 .explore-collections__btn {
     width: 371px;
-    height: 101px;
-    margin-bottom: 43px;
+    height: 103px;
+    margin-bottom: 41px;
+    padding-top: 7px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
     font-size: 27px;
@@ -658,7 +687,7 @@ a {
     border: none;
     background: none;
     margin-left: 614px;
-    margin-top: -2px;
+    margin-top: 1px;
 }
 
 .button__view img{
@@ -675,6 +704,7 @@ a {
     display: flex;
     justify-content: space-between;
     font-family: 'Orbitron', sans-serif;
+    letter-spacing: -0.2px;
     font-weight: 700;
     font-size: 18px;
     color: white;
@@ -690,6 +720,10 @@ a {
     font-size: 26px;
     margin-right: 7px;
     letter-spacing: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
 }
 
 .button__view2:hover{
@@ -698,13 +732,18 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+.explore-collections-cards{
+    width: 1385px;
+}
+
 .explore-collections__swiper-wrapper{
-    display: flex;
-    justify-content: space-between;
+
 }
 
 .explore-collections__swiper-slide{
+    margin-right: 35px;
     margin-top: 23px;
+    width: 438px;
     background-image: url(img/collect/carts-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -722,7 +761,6 @@ a {
 }
 
 .explore-collections__user{
-    width: 100%;
     margin-top: 104px;
     display: flex;
     flex-direction: column;
@@ -738,6 +776,7 @@ a {
     font-weight: 500;
     font-size: 24px;
     margin-top: 11px;
+    letter-spacing: 0.2px;
 }
 
 .usernick{
@@ -745,38 +784,34 @@ a {
     font-size: 20px;
     display: flex;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -22px;
+    margin-left: 18px;
 }
 
 .usernick img{
-    margin-left: 3px;
+    margin-left: 6px;
 }
 
 .explore-collections__info{
-    width: 100%;
-    margin-top: -23px;
+    margin-top: -22px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
 }
 
 .user-nums{
     display: flex;
+    width: 349px;
     justify-content: space-between;
-    width: 340px;
 }
 
-.user-num{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-}
 
 .user-num__numbers{
     font-weight: 600;
     font-size: 31px;
+    display: flex;
+    width: 73px;
+    justify-content: center;
 }
 
 .user-num__name{
@@ -798,6 +833,8 @@ a {
     border-image-slice: 1;
     margin-top: 20px;
     margin-bottom: 40px;
+    margin-left: 6px;
+
 }
 
 .follow__btn:hover{
@@ -812,7 +849,8 @@ a {
     font-size: 26px;
     color: white;
     margin-top: 158px;
-    letter-spacing: -0.3px;
+    letter-spacing: 0.2px;
+    margin-left: 26px;
 }
 
 .top-sellers__title select{
@@ -831,7 +869,8 @@ a {
 }
 
 .top-sellers__title img{
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-top: 10px;
 }
 
 .top-sellers__info{
@@ -840,7 +879,7 @@ a {
     width: 525px;
     font-size: 18px;
     text-align: center;
-    margin-left: 435px;
+    margin-left: 436px;
     line-height: 27px;
 }
 /*users*/
@@ -852,7 +891,7 @@ a {
     display: flex;
     justify-content: space-between;
     color: white;
-    margin-top:35px;
+    margin-top: 38px;
     list-style-type: none;
     counter-reset: item;
     display: flex;
@@ -867,10 +906,9 @@ a {
     width: 437px;
     height: 124px;
     align-items: center;
-    border: 3px solid transparent;
-    border-image: linear-gradient(145deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0));
-    border-image-slice: 1;
-    margin-bottom: 33px;
+    border: 3px solid rgba(255, 255, 255, 0.28);
+    border-radius: 25px;
+    margin-bottom: 34px;
     padding-left: 28px;
     font-family: 'Roboto Thin', sans-serif;
 }
@@ -878,16 +916,24 @@ a {
 .top-sellers__users li:before {
     content: counter(item) ' ';
     counter-increment: item;
+    width: 8px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .top-sellers__user-img{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 14px;
+}
+
+.user-info{
+    width: 176px;
 }
 
 .user-name{
-    letter-spacing: 1px;
+    letter-spacing: 1.3px;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 .user-stat{
@@ -899,7 +945,7 @@ a {
 
 .user-stat img{
     height: 15px;
-    width: 9px;
+    margin-right: 3px;
 }
 
 .user__attachments,
@@ -907,7 +953,6 @@ a {
     height: 35px;
     width: 100px;
     font-size: 14px;
-    margin-left: 66px;
     padding-top: 8px;
     padding-left: 16px;
     margin-top: 25px;
@@ -937,7 +982,7 @@ a {
     border: 2px solid transparent;
     border-image: linear-gradient(100deg, #3C79D4, #FFA6FA);
     border-image-slice: 1;
-    margin-top: 14px;
+    margin-top: 8px;
     margin-left: 579px;
     margin-bottom: 45px;
 }
@@ -947,7 +992,7 @@ a {
 }
 
 .about-nfts{
-    margin-top: 113px;
+    margin-top: 115px;
     background-image: url(img/what-are-nfts/bg.jpg);
     background-repeat:no-repeat;
     background-size: cover;
@@ -966,21 +1011,24 @@ a {
     border: 3px solid transparent;
     border-image: linear-gradient(145deg, #616161, rgba(255, 255, 255, 0));
     border-image-slice: 1;
-    padding-left: 66px;
+    padding-left: 68px;
     padding-top: 22px;
+    margin-right: 29px;
 }
 
 .about-nfts__content h1{
     font-weight: 800;
     font-size: 45px;
+    letter-spacing: 0.2px;
 }
 
 .about-nfts__content p{
     font-weight: 400;
     font-size: 20px;
     margin-top: -16px;
-    width: 428px;
-    line-height: 35.5px;
+    width: 432px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
 }
 
 .learn-more__btn,
@@ -991,8 +1039,9 @@ a {
     color: white;
     background: none;
     border: none;
-    margin-right: 23px;
-    margin-top: 26px;
+    margin-right: 33px;
+    margin-top: 22px;
+    margin-left: -6px;
 }
 
 .video__btn img{
@@ -1032,9 +1081,10 @@ a {
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
-    width: 496px;
-    line-height: 32px;
-    margin-top: -1px;
+    width: 497px;
+    line-height: 34px;
+    margin-top: -3px;
+    letter-spacing: 0.1px;
 }
 
 .subscribe-form__form-to-join input{
@@ -1046,7 +1096,8 @@ a {
     color: #F4F5F7;
     padding-left: 17px;
     border-radius: 6px 0px 0px 6px;
-    margin-top: 32px;
+    margin-top: 29px;
+    letter-spacing: 0.3px;
 }
 
 .subscribe-form__form-to-join button{
@@ -1058,7 +1109,7 @@ a {
     border: 2px solid transparent;
     border-image: linear-gradient(100deg, #3C79D4, #FFA6FA);
     border-image-slice: 1;
-    width: 144px;
+    width: 145px;
     height: 53px;
     margin-left: 5px;
     border-radius: 0px 6px 6px 0px;
@@ -1091,15 +1142,16 @@ a {
 }
 
 .footer-info p{
-    line-height: 25px;
-    letter-spacing: -0.3px;
-    margin-bottom: 29px;
+    line-height: 26px;
+    letter-spacing: -0.27px;
+    margin-bottom: 27px;
 }
 
 .footer-social{
     width: 158px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer-categoryes{
@@ -1110,9 +1162,10 @@ a {
     display: flex;
     justify-content: space-between;
     width: 982px;
+    margin-top: 2px;
 }
 
-.category h1{
+.footer-categoryes__item h1{
     font-family: Inter;
     font-weight: 500;
     font-size: 20px;
@@ -1121,13 +1174,13 @@ a {
     width: 142px;
 }
 
-.category p{
+.footer-categoryes__item p{
     font-family: Inter;
     margin-bottom: 20px;
     font-weight: 300;
 }
 
-.category img{
+.footer-categoryes__item img{
     margin-left: 5px;
 }
 
@@ -1146,7 +1199,7 @@ a {
     position: absolute;
     height: 2px;
     width: 1340px;
-    margin-top: 340px;
+    margin-top: 337px;
     background-color: #ffffff;
     opacity: 20%;
 }
