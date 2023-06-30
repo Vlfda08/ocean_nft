@@ -1,6 +1,5 @@
 var swiper = new Swiper('.top-nfts-cards', {
     direction: 'horizontal',
-    spaceBetween: 25,
     grabCursor: true,
     loop: true,
     breakpoints: {

@@ -1,6 +1,6 @@
 var swiper = new Swiper('.explore-collections-cards', {
     direction: 'horizontal',
-    spaceBetween: 15,
+    spaceBetween: 35,
     grabCursor: true,
     loop: true,
     breakpoints: {
