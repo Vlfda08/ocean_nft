@@ -101,7 +101,7 @@ a {
 .account-icon:hover{
     opacity: 100%;
 }
-.burger-menu, .menu{
+.burger-menu, .burger-menu__nav{
     display: none;
 }
 
