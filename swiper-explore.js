@@ -4,13 +4,14 @@ var swiper = new Swiper('.explore-collections-cards', {
     grabCursor: true,
     loop: true,
     breakpoints: {
-        320: {
-            slidesPerView: 1,
+        375: {
+            slidesPerView: 1.12,
+            spaceBetween: 20,
         },
-        700: {
+        1100: {
             slidesPerView: 2,
         },
-        980: {
+        1600: {
             slidesPerView: 3,
         },
     }

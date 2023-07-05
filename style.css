@@ -34,7 +34,7 @@ a {
 
 .header-menu{
     display: flex;
-    margin-top: 32px;
+    margin-top: 22px;
 }
 
 .header-menu__logo{
@@ -101,52 +101,9 @@ a {
 .account-icon:hover{
     opacity: 100%;
 }
-/*
-
-.burger-menu__button{
-    position: fixed;
-    margin: 0 auto;
-    z-index: 30;
-    width: 22px;
-    height: 20px;
+.burger-menu, .menu{
+    display: none;
 }
-
-.burger-menu__lines,
-.burger-menu__lines::after,
-.burger-menu__lines::before{
-    position: absolute;
-    width: 13px;
-    height: 3px;
-    background-color: white;
-    border-radius: 2px;
-    opacity: 75%;
-}
-
-.burger-menu__lines{
-    transform: rotate(180deg);
-
-}
-
-.burger-menu__lines::after{
-    content: '';
-    top: -5px;
-    width: 21px;
-}
-.burger-menu__lines::before{
-    content: '';
-    top: 5px;
-    width: 21px;
-}
-
-.burger-menu__lines:hover{
-    opacity: 100%;
-}
-
-.burger-menu_active .burger-menu__lines,
-.burger-menu_active .burger-menu__lines::after{
-
-}
-*/
 
 .main-page__content{
     margin-top: 95px;
@@ -634,6 +591,10 @@ a {
     background: none;
 }
 
+.top-nfts__btn, .top-nfts__btn-border{
+    display: none;
+}
+
 .explore-collections__content{
     font-family: 'Orbitron', sans-serif;
     color: white;
@@ -736,10 +697,6 @@ a {
     width: 1385px;
 }
 
-.explore-collections__swiper-wrapper{
-
-}
-
 .explore-collections__swiper-slide{
     margin-right: 35px;
     margin-top: 23px;
@@ -839,6 +796,11 @@ a {
 
 .follow__btn:hover{
     border: none;
+}
+
+.explore-collections-acc__btn-border,
+.explore-collections-acc__btn{
+    display: none;
 }
 
 .top-sellers__title{
@@ -991,6 +953,11 @@ a {
     border: none;
 }
 
+.top-sellers__btn-border,
+.top-nfts__btn2{
+    display: none;
+}
+
 .about-nfts{
     margin-top: 115px;
     background-image: url(img/what-are-nfts/bg.jpg);
@@ -1040,12 +1007,14 @@ a {
     background: none;
     border: none;
     margin-right: 33px;
-    margin-top: 22px;
+    margin-top: 17px;
     margin-left: -6px;
 }
 
 .video__btn img{
-    margin-right: 10px;
+    margin-right: 9px;
+    margin-top: 7px;
+    margin-left: 3px;
 }
 
 .learn-more__btn:hover,
@@ -1061,7 +1030,7 @@ a {
     margin-top: 162px;
 }
 
-.subscribe-form__content img{
+.subscribe-form__img{
     border-radius: 5px;
 }
 
@@ -1096,7 +1065,7 @@ a {
     color: #F4F5F7;
     padding-left: 17px;
     border-radius: 6px 0px 0px 6px;
-    margin-top: 29px;
+    margin-top: 30px;
     letter-spacing: 0.3px;
 }
 
@@ -1119,11 +1088,15 @@ a {
     border: none;
 }
 
+.img-adapt{
+    display: none;
+}
+
 .footer__content{
     display: flex;
     font-family: Inter;
     color: white;
-    margin-top: 243px;
+    margin-top: 242px;
     margin-left: -25px;
 }
 
@@ -1161,11 +1134,20 @@ a {
 .footer-categoryes{
     display: flex;
     justify-content: space-between;
-    width: 982px;
-    margin-top: 2px;
+    width: 971px;
+    margin-top: 20px;
 }
 
-.footer-categoryes__item h1{
+.accordion-item__input{
+    display: none;
+}
+
+.footer-categoryes__item{
+    width: 131px;
+}
+
+.accordion-item__trigger,
+.accordion-item__trigger-last{
     font-family: Inter;
     font-weight: 500;
     font-size: 20px;
@@ -1174,14 +1156,21 @@ a {
     width: 142px;
 }
 
-.footer-categoryes__item p{
+.accordion-item__content p{
     font-family: Inter;
-    margin-bottom: 20px;
+    margin-bottom: -4px;
+    margin-top: 24px;
     font-weight: 300;
 }
 
-.footer-categoryes__item img{
-    margin-left: 5px;
+.accordion-item__content img{
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.accordion-item__trigger img,
+.accordion-item__trigger-last img{
+    display: none;
 }
 
 .footer__content::before{
@@ -1189,7 +1178,7 @@ a {
     position: absolute;
     height: 2px;
     width: 1340px;
-    margin-top: -84px;
+    margin-top: -82px;
     background-color: #ffffff;
     opacity: 20%;
 }
@@ -1199,7 +1188,7 @@ a {
     position: absolute;
     height: 2px;
     width: 1340px;
-    margin-top: 337px;
+    margin-top: 338px;
     background-color: #ffffff;
     opacity: 20%;
 }
@@ -1209,8 +1198,8 @@ a {
     justify-content: space-between;
     width: 1342px;
     color: white;
-    margin-left: -30px;
-    margin-top: 86px;
+    margin-left: -29px;
+    margin-top: 109px;
     font-family: Inter;
     font-weight: 400;
     letter-spacing: -0.2px;

@@ -3,14 +3,11 @@ var swiper = new Swiper('.top-nfts-cards', {
     grabCursor: true,
     loop: true,
     breakpoints: {
-        320: {
-            slidesPerView: 1,
+        375: {
+            slidesPerView: 1.06,
         },
-        700: {
-            slidesPerView: 2,
-        },
-        980: {
+        1600:{
             slidesPerView: 3,
-        },
+        }
     }
 });
