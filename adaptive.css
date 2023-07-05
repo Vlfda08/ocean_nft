@@ -882,6 +882,11 @@
         letter-spacing: 0.2px;
     }
 
+    .accordion-item__trigger img,
+    .accordion-item__trigger-last img{
+        display: block;
+    }
+
     .accordion-item__input{
         display: none;
     }
