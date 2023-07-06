@@ -4,6 +4,244 @@
     }
 }
 
+@media (max-width: 1440px) {
+    .container{
+        max-width: 1230px;
+    }
+
+    .main-page-cards {
+        margin-left: 760px;
+    }
+
+    .about-nfts__content {
+        margin-left: 710px;
+    }
+
+    .footer, .last-line{
+        margin-left: 30px;
+    }
+
+    .top-nfts-cards {
+        width: 1308px;
+        margin-left: 10px;
+    }
+
+    .girl-nft {
+        margin-left: 865px;
+    }
+
+    .explore-collections-cards {
+        max-width: 1225px;
+    }
+
+    .top-sellers__users li {
+        width: 385px;
+        padding-left: 15px;
+    }
+
+    .user__attachments, .user__attachments_r {
+        margin-left: 14px;
+    }
+
+    .about-nfts__content{
+        margin-left: auto;
+    }
+
+    .subscribe-form__form-to-join {
+        color: white;
+        width: 606px;
+        margin-left: 35px;
+    }
+
+    .footer__content::before, .footer__content::after, .last-line__content {
+        width: 1230px;
+    }
+}
+
+@media (max-width: 1355px) {
+    .girl-nft {
+        margin-left: 820px;
+        margin-top: -728px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header-menu__navigate {
+        margin-left: 60px;
+        line-height: 25px;
+        width: 356px;
+        justify-content: space-between;
+    }
+
+    .main-page__title {
+        font-size: 80px;
+        width: 600px;
+    }
+
+    .main-page__text {
+        font-size: 25px;
+    }
+
+    .main-page__numbers-artwork::after,
+    .main-page__numbers-auctions::after {
+        top: 758px;
+    }
+
+    .main-page__partners{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 85px;
+        margin-left: -4px;
+    }
+
+    .binance {
+        height: 100px;
+        width: 329px;
+        margin-left: 7px;
+    }
+
+    .ethereum {
+        width: 245px;
+        height: 100px;
+        margin-top: 2px;
+        margin-right: 35px;
+    }
+
+    .blockchain {
+        height: 92px;
+        width: 430px;
+        margin-left: -13px;
+    }
+
+    .bitmex {
+        margin-top: 0px;
+        width: 226px;
+        margin-right: 28px;
+    }
+
+    .main-page-cards {
+        margin-left: 165px;
+        margin-top: 740px;
+    }
+
+    .top-nfts__content {
+        margin-top: 200px;
+    }
+
+    .top-nfts-cards {
+        width: 745px;
+    }
+
+    .explore-collections__btns {
+        display: flex;
+        width: 750px;
+    }
+
+    .explore-collections__btn {
+        width: 350px;
+    }
+
+    .button__view {
+        margin-left: 550px;
+    }
+
+    .girl-nft {
+        margin-left: 157px;
+        margin-top: 5px;
+    }
+
+    .explore-collections-cards {
+        width: 745px;
+    }
+
+    .top-sellers__info {
+        margin-left: 120px;
+    }
+
+    .top-sellers__list {
+        width: 725px;
+    }
+
+    .top-sellers__users li {
+        width: 355px;
+        padding-left: 20px;
+    }
+
+    .user-info {
+        width: 110px;
+        font-size: 15px;
+    }
+
+    .top-sellers__btn {
+        margin-left: 260px;
+    }
+
+    .about-nfts__content {
+        margin-left: 180px;
+        width: 505px;
+        height: 415px;
+        padding-left: 45px;
+    }
+
+    .about-nfts {
+        padding-top: 105px;
+    }
+
+    .about-nfts__content h1 {
+        font-size: 40px;
+    }
+
+    .about-nfts__content p {
+        font-size: 15px;
+    }
+
+    .subscribe-form__content {
+        flex-direction: column-reverse;
+    }
+
+    .subscribe-form__form-to-join p {
+        width: 745px;
+    }
+
+    .subscribe-form__img {
+        margin-top: 50px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer-info {
+        width: 720px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .footer-categoryes {
+        width: 750px;
+        margin-top: 20px;
+    }
+
+    .footer__content::before, .footer__content::after {
+        width: 715px;
+    }
+
+    .footer__content::after {
+        margin-top: 510px;
+    }
+
+    .last-line__content {
+        margin-top: 45px;
+        width: 715px;
+    }
+
+    .last-line__last {
+        margin-top: 15px;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@400;800&family=Lato:wght@700&family=League+Spartan:wght@600&family=Orbitron:wght@700&family=Rajdhani&display=swap');
 
 @media (max-width: 375px) {
@@ -83,19 +321,22 @@
     }
 
     .burger-menu__nav{
-        padding-top: 65px;
+        padding-top: 100px;
         position: fixed;
-        width: 100%;
+        width: 57%;
+        height: 100%;
+        padding-right: 50px;
         padding-left: 50px;
-        padding-bottom: 65px;
+        padding-bottom: 535px;
         margin-top: -35px;
         z-index: 20;
         display: flex;
-        flex-direction: column;
         background-color: rgba(32, 1, 44, 0.5);
-        right: -100%;
+        /* right: 100%; */
+        margin-left: 160px;
         backdrop-filter: blur(10px);
         transition: 0.5s;
+        flex-wrap: wrap;
     }
 
     .burger-menu_active .burger-menu__nav{
@@ -108,20 +349,11 @@
         font-size: 20px;
         margin-bottom: 35px;
         color: white;
+        width: 130px;
     }
 
     .burger-menu__link:hover{
         opacity: 75%;
-    }
-
-    .burger-menu__overlay{
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 10;
     }
 
     .burger-menu_active .burger-menu__overlay{
@@ -220,6 +452,7 @@
         width: 138px;
         height: 27px;
         margin-top: 2px;
+        margin-right: 0px;
     }
 
     .blockchain{
@@ -231,6 +464,7 @@
     .bitmex{
         margin-top: 0px;
         width: 108px;
+        margin-right: 0px;
     }
 
     .main-page-cards {
@@ -613,6 +847,10 @@
         background: linear-gradient(100deg, #FF56F6, #43A5E3);
     }
 
+    .top-sellers__list {
+        width: 150px;
+    }
+
     .top-sellers__title {
         font-size: 19px;
         margin-left: 2px;
@@ -685,7 +923,7 @@
         padding-top: 5px;
         padding-left: 8px;
         margin-top: 19px;
-        margin-left: -54px;
+        margin-left: 14px;
     }
 
     .top-sellers__btn{
@@ -787,6 +1025,7 @@
 
     .subscribe-form__form-to-join {
         width: 330px;
+        margin-left: 0px;
     }
 
     .subscribe-form__form-to-join h1 {
@@ -831,6 +1070,10 @@
         border-radius: 5px;
     }
 
+    .footer, .last-line {
+        margin-left: 0px;
+    }
+
     .footer__content {
         flex-direction: column;
         margin-top: 122px;
@@ -867,9 +1110,8 @@
 
     .footer-categoryes{
         display: flex;
-        margin-top: 31px;
+        margin-top: 0px;
         flex-direction: column;
-        height: 286px;
         width: 150px;
     }
 
@@ -892,11 +1134,15 @@
     }
 
     .accordion-item__content{
-        display: none;
+        overflow: hidden;
+        height: 0px;
+        position: relative;
+        z-index: 10;
+        border: none;
     }
 
     .accordion-item__input:checked ~ .accordion-item__content{
-        display: block;
+        height: 210px;
     }
 
     .footer__content::before {
@@ -923,7 +1169,7 @@
         width: 307px;
         color: white;
         margin-left: 7px;
-        margin-top: 48px;
+        margin-top: 9px;
     }
 
     .last-line__list-item-last{
@@ -945,6 +1191,6 @@
 
     .last-line__content p{
         margin-left: -5px;
-        margin-bottom: 170px;
+        margin-bottom: 165px;
     }
 }

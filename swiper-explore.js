@@ -8,10 +8,10 @@ var swiper = new Swiper('.explore-collections-cards', {
             slidesPerView: 1.12,
             spaceBetween: 20,
         },
-        1100: {
-            slidesPerView: 2,
+        768:{
+            slidesPerView: 1.8,
         },
-        1600: {
+        1440: {
             slidesPerView: 3,
         },
     }
